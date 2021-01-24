@@ -26,7 +26,7 @@
     "url": "https://github.com/372623460jh/data-structure.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/372623460jh",
+    "registry": "https://registry.npmjs.org",
     "access": "public"
   },
   "scripts": {},
