@@ -1,23 +1,18 @@
-  {
-    "lerna": "2.11.0",
-    "packages": [
-      "packages/*"
-    ],
-    "command": {
-      "version": {
-        "conventionalCommits": true
-      },
-      "publish": {
-        "npmClient": "npm",
-        "registry": "https://npm.pkg.github.com",
-        "verifyRegistry": false,
-        "verifyAccess": false,
-        "allowBranch": [
-          "master",
-          "release"
-        ]
-      }
+{
+  "lerna": "2.11.0",
+  "packages": ["packages/*"],
+  "command": {
+    "version": {
+      "conventionalCommits": true
     },
-    "version": "independent",
-    "npmClient": "npm"
-  }
+    "publish": {
+      "npmClient": "npm",
+      "registry": "https://npm.pkg.github.com",
+      "verifyRegistry": false,
+      "verifyAccess": false,
+      "allowBranch": ["master", "release"]
+    }
+  },
+  "version": "independent",
+  "npmClient": "npm"
+}
