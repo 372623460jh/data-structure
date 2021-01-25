@@ -21,11 +21,9 @@ class Queue {
   private rear = 0;
 
   constructor(queueMaxLength: number) {
-    this.arrayQueue = [];
     this.queueMaxLength = queueMaxLength;
     this.arrayMaxLength = this.queueMaxLength + 1;
-    this.front = 0;
-    this.rear = 0;
+    this.cleanQueue();
   }
 
   /**
